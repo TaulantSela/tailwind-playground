@@ -508,8 +508,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 1.5rem;
 }
 
-.right-0 {
-  right: 0px;
+.right-6 {
+  right: 1.5rem;
 }
 
 .mx-auto {
@@ -830,21 +830,23 @@ body {
   background-position: 90% - 25%;
 }
 
-#cta{
+#cta {
   background-image: url('../img/bg-simplify-section-desktop.svg');
   background-repeat: no-repeat;
 }
 
-@media(max-width: 576px){
-  body{
+@media (max-width: 576px) {
+  body {
     background-position: 50px -50px;
     background-size: 500px;
   }
 
-  #cta{
+  #cta {
     background-image: url('../img/bg-simplify-section-mobile.svg');
   }
 }
+
+/* Hamburger Menu */
 
 .hamburger {
   cursor: pointer;
@@ -861,7 +863,7 @@ body {
   top: 0;
   left: 0;
   width: 24px;
-  height: 24px;
+  height: 2px;
   background: #000;
   transform: rotate(0);
   transition: all 0.5s;
@@ -877,7 +879,7 @@ body {
 
 .open {
   transform: rotate(90deg);
-  transform: translateY(0px)
+  transform: translateY(0px);
 }
 
 .open .hamburger-top {
@@ -888,7 +890,7 @@ body {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
-.open .hamburger-middle{
+.open .hamburger-middle {
   display: none;
 }
 
